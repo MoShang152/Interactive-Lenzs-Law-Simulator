@@ -1,9 +1,0 @@
-
-cd C:\Users\TOM T\Desktop\大三课业\毕设\项目
-
-Compile:
-jdk-21.0.6.7-hotspot\bin\javac -d bin --module-path javafx-sdk\lib --add-modules javafx.controls,javafx.fxml src\LenzLawFXWithPointers.java
-
-
-Execute:
-jdk-21.0.6.7-hotspot\bin\java --module-path javafx-sdk\lib --add-modules javafx.controls,javafx.fxml -Djava.library.path="javafx-sdk\bin" -cp bin LenzLawFXWithPointers
